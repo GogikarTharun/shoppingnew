@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <title>Shopper</title>
+    <style>
+        body{
+            margin-bottom: 500px;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+        }
+        .brand-title{
+            font-weight: bold;
+            font-size: 25px;
+           
+        }
+        .brand-menu{
+            font-size: 20px;
+        }
+        .brand-menu span{
+            margin-right: 20px;
+        }
+        .brand-icons{
+            font-size: 20px;
+        }
+        .brand-icons span{
+            margin-right: 20px;
+        }
+        .brand-offer{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .brand-nav{
+            margin-top: 10px;
+            height: 450px;
+            display: grid;
+            grid-template-columns: 4fr 4fr 4fr;
+        }
+        .banner-title{
+            font-size: 30px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px 2px black;
+        }
+        .Women{
+            background-image: url(../src/images/fashion1.jpg);
+            background-size: cover;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            opacity: 0.6;
+        } 
+        .Women:hover{
+            opacity: 2;
+
+        }       
+        .men{
+            background-image: url(../src/images/fashio2.jpg);
+            background-size: cover;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            opacity: 0.6;      
+        }
+        .men:hover{
+            opacity: 2;
+        }
+        .kids{
+            background-image: url(../src/images/fashion3.jpg);
+            background-size: cover;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            opacity: 0.6;      
+        }
+        .kids:hover{
+            opacity: 2;
+        }
+        .men button{
+            width: 200px;
+            height: 45px;
+            background-color: whitesmoke;
+            text-align: center;
+            
+        }
+        .Women button{
+            width: 200px;
+            height: 45px;
+            background-color: whitesmoke;
+        }
+        .kids button{
+            width: 200px;
+            height: 45px;
+            background-color: whitesmoke;
+        }
+        .image-text{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            
+        }
+        .image-text~div span{
+            font-weight: bold;
+        }
+        footer{
+            background-color: whitesmoke;
+            padding: 20px;
+            margin-top: 300px;
+        }
+        .brand-footer{
+            font-weight: bold;
+            font-size: 30px;
+            text-align: center;
+        }
+        .brand-footer~div{
+            text-align: center;
+        }
+        .cards{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 250px;
+                    
+            
+            
+        }
+        .cards img{
+            margin: 10px;
+            width: 200px;
+        }
+        .caption{
+            display: flex;
+            justify-content: space-between;
+          
+           
+        }
+        .footer-div{
+            background-color: black;
+            color: white;
+            padding: 20px;
+        }
+          
+    </style>
+
+   
+</head>
+<body>
+    <div class="container-fluid">
+    <header>
+        <div class="brand-title">
+            .shopper
+        </div>
+        <div class="brand-menu">
+            <span>Home</span>
+            <span>Catalog</span>
+            <span>Shop</span>
+            <span>Pages</span>
+            <span>Blog</span>
+            <span>Docs</span>
+         
+        </div>
+        <div class="brand-icons">
+            <span class="bi bi-search"></span>
+            <span class="bi bi-person"></span>
+            <span class="bi bi-heart"></span>
+            <span class="bi bi-shop"></span>
+        </div>
+    </header>
+    <div class="brand-offer">
+    <span class="bi bi-lightning-fill text-warning"></span>HAPPY HOLIDAY DEALS ON EVERYTHING<span class="bi bi-lightning-fill text-warning"></span>
+    </div>
+    <div class="brand-nav">
+     <div class="Women">
+       <div class="banner-title">
+          Women
+       </div>
+       <button>Shop Women<span class="bi bi-arrow-right"></span></button>
+     </div>
+     <div class="men">
+        <div class="banner-title">
+           Men
+        </div>
+        <button>Shop Men<span class="bi bi-arrow-right"></span></button>
+       
+      </div>
+      <div class="kids">
+        <div class="banner-title">
+           Kids
+        </div>
+        <button>Shop Men<span class="bi bi-arrow-right"></span></button>
+      </div>
+    </div>
+    <div class="image-text">
+    <div>
+        <span class="bi bi-truck text-danger"></span>
+        FREE SHIPPING
+        <p>From All Orders Over $100</p>
+    </div>
+    <div >
+        <span class="bi bi-truck text-danger"></span>
+        FREE RETURNS
+        <p>Return Money WithIn 30 Days</p>
+    </div>
+    <div>
+        <span class="bi bi-truck text-danger"></span>
+        SECURE SHOPPING
+        <p>You are in Safe Hands</p>
+    </div>
+    <div>
+        <span class="bi bi-truck text-danger"></span>
+        OVER'10.000 STYLES
+        <p>We have Everything You Need</p>
+    </div>
+     </div>
+     </div>
+     <footer>
+        <div class="brand-footer">@Shopper</div>
+        <div>Appears,dry there darkeness they are seas,dry Waters</div>
+        <div class="cards">
+          <img src="../src/images/fashion1.jpg">
+       
+          <img src="../src/images/fashio2.jpg">
+          <img src="../src/images/fashio2.jpg">
+          <img src="../src/images/fashion1.jpg">
+          <img src="../src/images/fashion1.jpg">
+          <img src="../src/images/fashion1.jpg">
+         
+        </div>
+        <div class="caption">
+            <div>Mango</div>
+            <div>Mango</div>
+            <div>Mango</div>
+            <div>Mango</div>
+            <div>Mango</div>
+            <div>Mango</div>
+        
+
+        
+        </div>
+     <div class="footer-div">
+        <div>Want Style Ideas and Treats?</div>
+        <div class="form">
+            <div>
+              <input type="search" class="mt-3 form-control bg-black text-white text-center " placeholder="ENTER EMAIL">
+              <span class="btn btn-gray">Subscribe</span>
+             
+            </div>
+           </div>
+     </div>
+    
+     </footer>
+</body>
+</html>
